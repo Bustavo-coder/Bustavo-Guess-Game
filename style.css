@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+.nav{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-1{
+    all: unset;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    font-size: 40px;
+}
+.nav p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 30px;
+}
+.sta h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.display {
+    width: 20%;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    /* height: 100vh; */
+}
+.ban1{
+    width: 40%;
+}
+/* .ans{
+     width: 60%;
+    padding: 10px;
+    border: 2px solid white;
+    align-items: center;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    color: white;
+} */
+.ans input{
+    all: unset;
+    width: 60%;
+    padding: 10px;
+    border: 2px solid white;
+    align-items: center;
+    color: white;
+    margin: auto;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+}
+.btn2{
+    all: unset;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ban2{
+    width: 40%;
+    /* text-align: left; */
+    
+}
+.ban2 h6{
+    margin-bottom: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+}
+.ban2 p{
+     margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+}
+@media screen and (max-width:900px) {
+      .nav{
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .btn-1{
+        margin-bottom: 30px;
+        width: 70%;
+    }
+    .display{
+        width: 30%;
+    }
+    .banner{
+        flex-direction: column;
+        margin: auto;
+    }
+    .ban1{
+        width: 80%;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+    .ans{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        margin: auto;
+    }
+    .nav{
+        flex-direction: column;
+        margin: auto;
+        text-overflow: clip;
+    }
+    .btn-1{
+        margin-bottom: 30px;
+    }
+    .display{
+        width: 80%;
+    }
+    .banner{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: none;
+    }
+    .banner >div{
+        width: 80%;
+        margin: auto;
+    }
+    .ans{
+        width: 100%;
+    }
+    .ban2{
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
